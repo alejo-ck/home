@@ -1,0 +1,37 @@
+.HomeSiteNavbar {
+    background-color: black;
+    height: 100px;
+    position: relative;
+}
+
+.nav-option-container {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    margin-right: 100px;
+}
+
+.NavOption {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+img.HomeLogo {
+    height: 150px;
+    width: 300px;
+}
+
+.HomeSiteNavbarLogo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

@@ -1,0 +1,50 @@
+.ContentBodyContainer {
+    margin-top: 10%;
+    color: white;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.ContentBody {
+    text-align: left;
+    width: 50%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* sroll bar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(20, 20, 20, 1);
+    opacity: 0.1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(200, 200, 200);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
