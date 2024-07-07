@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import ContactInfoEntry from './ContactInfoEntry';
 
-test('ContactInfoEntry should render ContactInfoEntry options and routes', () => {
+test('ContactInfoEntry should render ContactInfoEntry elements', () => {
   const contactInfoEntry = render(<ContactInfoEntry network="network" href="href" displayString="display"/>);
   const contactInfoEntryContainer = contactInfoEntry.container.firstChild;
   expect(contactInfoEntryContainer.className).toBe('ContactInfoEntryContainer');
