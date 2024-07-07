@@ -3,9 +3,9 @@ import Home from '../body/home/Home'
 import Blog from '../body/blog/Blog'
 import Projects from '../body/projects/Projects'
 import Contact from '../body/contact/Contact'
-import './NavBar.css'
+import './Navigation.css'
 
-function NavBar() {
+function Navigation() {
   return (
     <BrowserRouter>
       {/* Render Page Menu */}
@@ -60,4 +60,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navigation;

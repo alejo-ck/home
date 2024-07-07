@@ -1,15 +1,15 @@
 import { render } from '@testing-library/react';
-import NavBar from './NavBar';
+import Navigation from './Navigation';
 
 test('NavBar should render NavBar options and routes', () => {
-  const navBar = render(<NavBar />);
-  const navBarContent = navBar.container.firstChild;
-  expect(navBarContent.className).toBe('HomeSiteNavbar');
+  const navigation = render(<Navigation />);
+  const navigationContent = navigation.container.firstChild;
+  expect(navigationContent.className).toBe('HomeSiteNavbar');
   
-  const navBarLogo = navBarContent.firstChild
-  expect(navBarLogo.className).toBe('HomeSiteNavbarLogo');
+  const navigationLogo = navigationContent.firstChild
+  expect(navigationLogo.className).toBe('HomeSiteNavbarLogo');
   
-  const navOptionsContainer = navBarContent.childNodes[1]
+  const navOptionsContainer = navigationContent.childNodes[1]
   expect(navOptionsContainer.className).toBe('nav-option-container')
   expect(navOptionsContainer.childNodes.length).toBe(4)
 

@@ -1,10 +1,12 @@
-import NavBar from './components/nav/NavBar';
+import Navigation from './components/nav/Navigation';
+import Footer from './components/nav/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Navigation />
+      <Footer />
     </div>
   );
 }
